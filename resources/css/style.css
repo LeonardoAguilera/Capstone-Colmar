@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    display: flex;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide_mobile {
+    display: none;
+}
+
+
+/* banner section */
+
+.banner {
+    background-color: #c3c3c3;
+}
+
+.banner_img_container {
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .text {
+    padding: 32px 16px;
+}
+
+.banner .text h1 {
+    color: #000000;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+.banner .text p {
+    color: #000000;
+    font-size: 2.1rem;
+    margin-bottom: 24px;
+}
+
+.banner .text a {
+    color: #ffffff;
+    background-color: #9b9b9b;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* /banner section */
+
+/* info section*/
+
+.info_secondary {
+    padding: 16px 16px 32px 16px;
+    border-bottom: 1px solid;
+    border-color: rgba(195, 195, 195, 0.5);
+}
+
+.info_item img {
+    width: 100%;
+}
+
+.info_text {
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+.info_item h3 {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.info_item p, .info_item a{
+    font-size: 1.5rem;
+    display: block;
+    padding-top: 15px;
+}
+
+.info_item a {
+    color: #1387ec;
+}
+
+.info_item {
+    margin-top: 44px;
+}
+
+.info_item:first-of-type {
+    margin-top: 0;
+}
+
+/* /info section*/
+
+/* courses section */
+
+.courses {
+    margin-top: 32px;
+}
+
+.courses h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.courses ul {
+    padding: 16px 16px 32px 16px;
+    border-bottom: 1px solid;
+    border-color: rgba(195, 195, 195, 0.5);
+}
+
+.courses ul li {
+    background-color: rgba(195, 195, 195, 0.5);
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.courses ul li a {
+    display: block;
+    width: 272px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.courses ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+/* /courses section */
+
+/* thesis section */
+
+.thesis {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.thesis h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.video_container {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    max-width: 768px;
+}
+
+/* /thesis section */
+
+/* footer */
+
+footer p {
+    margin: 16px;
+    font-size: 1.5rem;
+    color: grey;
+}
